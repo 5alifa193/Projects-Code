@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.rate{
+  font-size: 12px;
+  border-radius: 2px;
+}
+.green{
+  color: black;
+  background-color: green;
+}
+.orange{
+  color: black;
+  background-color: orange;
+}
+.red{
+  color: black;
+  background-color: red;
+}
+/* description style  */
+
+.movie-width:hover .description-bg{
+  background-color: rgba(0, 0, 0, .7);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: 1s;
+  cursor: pointer;
+}
+.singleMovie{
+  border: 1px solid aqua;
+  border-radius: 5px;
+}
+.name-border{
+  border: 1px solid aqua !important;
+}

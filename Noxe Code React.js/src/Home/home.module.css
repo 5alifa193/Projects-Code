@@ -1,0 +1,9 @@
+.line::before{
+    content: '';
+    position: absolute;
+    background-color: #6c757d;
+    width: 100px;
+    height: 1px;
+    top: 0px;
+    left: 10;
+}
